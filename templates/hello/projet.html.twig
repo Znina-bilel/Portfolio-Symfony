@@ -1,0 +1,37 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Contact - Portfolio{% endblock %}
+
+{% block body %}
+<link rel="stylesheet" href="/assets/projet.css">
+
+    <h2>Mes Projets</h2>
+    <div class="card-container">
+        <div class="card" style="width: 18rem;">
+            <img src="/assets/appweb.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Application web (SRTGN)</h5>
+                <p>J'ai développé une application web pendant mon stage au sein de la SRTGN, visant à faciliter la gestion des transports publics dans la région de Nabeul. Cette application permet aux utilisateurs de consulter les horaires et de suivre les trajets des bus en temps réel. Elle a été conçue pour améliorer l'expérience des usagers grâce à une interface simple et intuitive                .</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="/assets/mobile.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"> Application mobile (SRTGN)</h5>
+                <p>J'ai créé une application mobile pendant mon stage au SRTGN, conçue pour faciliter les déplacements des voyageurs dans la région de Nabeul. L'application permet de consulter les horaires des bus, suivre les trajets en temps réel et obtenir des informations pratiques. Elle vise à offrir une expérience fluide et accessible aux usagers du transport public.
+
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="/assets/crud.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">CRUD Laravel</h5>
+                <p>J'ai développé une application CRUD (Create, Read, Update, Delete) en utilisant Laravel, permettant la gestion simple et efficace des données. L'application offre une interface intuitive pour ajouter, afficher, modifier et supprimer des informations. Ce projet m'a permis de renforcer mes compétences en développement web avec Laravel et de travailler sur des fonctionnalités de gestion de données dynamiques.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}

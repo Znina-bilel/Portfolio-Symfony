@@ -1,0 +1,61 @@
+/* index.css */
+
+/* Set the background color to pink */
+body {
+    background-color: pink;
+    font-family: Arial, sans-serif;
+}
+
+/* Container styling */
+.container-fluid {
+    margin-top: 20px;
+}
+
+/* Styling for the left column (Menu) */
+.col-md-3 {
+    background-color: pink; /* Optional: Set a different background for the menu */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Title styling */
+h1 {
+    color: #333; /* Dark color for title */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Dropdown menu button */
+.dropdown-toggle {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+/* Dropdown menu items */
+.dropdown-menu {
+    background-color: #f8f9fa;
+}
+
+.dropdown-item {
+    color: #333;
+}
+
+.dropdown-item:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Right column content area */
+.col-md-9 {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Optional: Style the body content block */
+body {
+    padding: 10px;
+}
