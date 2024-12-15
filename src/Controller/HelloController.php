@@ -28,4 +28,9 @@ public function contact(): Response
 {
     return $this->render('hello/projet.html.twig');
 }
+#[Route('/about', name:'about')]
+public function about(): Response
+{
+    return $this->render('hello/about.html.twig');
+}
 }

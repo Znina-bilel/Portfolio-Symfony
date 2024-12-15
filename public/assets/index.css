@@ -13,7 +13,7 @@ body {
 
 /* Styling for the left column (Menu) */
 .col-md-3 {
-    background-color: pink; /* Optional: Set a different background for the menu */
+    background-color: rgb(205, 53, 78); /* Optional: Set a different background for the menu */
     padding: 20px;
     border-radius: 10px;
 }

@@ -1,0 +1,27 @@
+body {
+
+
+}
+.container {
+    margin-top: 50px;
+}
+
+.container a {
+    padding: 15px 30px; /* Réduire légèrement l'espacement horizontal et vertical */
+    margin-left: 100px;
+    background-color: rgb(69, 64, 64); /* Couleur de fond */
+    color: rgb(255, 255, 255); /* Couleur du texte */
+    font-weight: bold;
+    text-decoration: none; /* Retirer le souligné du lien */
+    border-radius: 8px; /* Bordures arrondies */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère pour donner de la profondeur */
+    transition: all 0.3s ease; /* Transition fluide pour les effets de survol */
+}
+
+/* Effet de survol */
+.container a:hover {
+    background-color: rgb(52, 50, 50); /* Couleur de fond plus foncée au survol */
+    color: #3a57e7; /* Changer la couleur du texte au survol (par exemple, un rouge orangé) */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Ombre plus prononcée */
+    transform: translateY(-2px); /* Légère élévation de l'élément au survol */
+}
